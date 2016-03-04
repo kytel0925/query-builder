@@ -1,0 +1,15 @@
+{
+    "name": "ctdesarrollo/query-builder",
+    "description": "Generador abstracto de consultas mediante estructuras de datos compatibles con PHP",
+    "keywords": ["mysql", "sql", "generator"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Telmo Riofrio",
+            "email": "telmo.riofrio@funiber.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
