@@ -11,5 +11,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "nilportugues/sql-query-builder": "^1.4"
+    }
 }
