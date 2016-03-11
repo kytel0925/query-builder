@@ -1,21 +1,27 @@
 {
-    "name": "ctdesarrollo/query-builder",
-    "description": "Generador abstracto de consultas mediante estructuras de datos compatibles con PHP",
-    "keywords": ["mysql", "sql", "generator"],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Telmo Riofrio",
-            "email": "telmo.riofrio@funiber.org"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^5.6 || ^7.0",
-        "nilportugues/sql-query-builder": "^1.4"
-    },
-    "require-dev": {
-      "phpunit/phpunit": "^5.2"
+  "name": "ctdesarrollo/query-builder",
+  "description": "Generador abstracto de consultas mediante estructuras de datos compatibles con PHP",
+  "keywords": ["mysql", "sql", "generator"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Telmo Riofrio",
+      "email": "telmo.riofrio@funiber.org"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "nilportugues/sql-query-builder": "^1.4",
+    "nicmart/tree": "^0.2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CTDesarrollo\\QueryBuilder\\": "src/"
+    }
+  }
 }
